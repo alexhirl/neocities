@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Comic Sans MS";
+    src: url(COMIC.TTF);
+}
+body {
+    text-align: center;
+    background-color: rgb(255, 233, 218);
+    color: black;
+    font-family: "Comic Sans MS";
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    font-size: 12px;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 24px;
+}
+p {
+    font-size: 18px;
+}
