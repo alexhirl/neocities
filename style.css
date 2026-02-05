@@ -1,12 +1,15 @@
 @font-face {
-    font-family: "Comic Sans MS";
-    src: url(COMIC.TTF);
+    font-family: "Abaddon";
+    src: url(Abaddon.ttf) format("truetype");
+}
+@font-face {
+    font-family: "AbaddonBold";
+    src: url(AbaddonBold.ttf) format("truetype");
 }
 body {
     text-align: center;
     background-color: rgb(255, 233, 218);
     color: black;
-    font-family: "Comic Sans MS";
 }
 img {
     max-width: 100%;
@@ -16,14 +19,18 @@ img {
     margin-right: auto;
 }
 footer {
+    font-family: "Abaddon";
     font-size: 12px;
 }
-h1 {
+h1 {    
+    font-family: "AbaddonBold";
     font-size: 40px;
 }
 h2 {
+    font-family: "AbaddonBold";
     font-size: 24px;
 }
 p {
+    font-family: "Abaddon";
     font-size: 18px;
 }
