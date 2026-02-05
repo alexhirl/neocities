@@ -5,8 +5,13 @@
 @font-face {
     font-family: "AbaddonBold";
     src: url(AbaddonBold.ttf) format("truetype");
+    font-weight: bold;
+}
+html {
+    scrollbar-color: #6f7bb0 #ffe9da;
 }
 body {
+    font-family: "Abaddon";
     text-align: center;
     background-color: rgb(255, 233, 218);
     color: black;
@@ -29,6 +34,9 @@ h1 {
 h2 {
     font-family: "AbaddonBold";
     font-size: 24px;
+}
+h3 {
+    font-family: "Abaddon";
 }
 p {
     font-family: "Abaddon";
